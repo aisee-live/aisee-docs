@@ -28,7 +28,6 @@ The "brain" of the platform, built with FastAPI and PostgreSQL.
 
 ### 2. User Interfaces
 - **Main App (`aisee-app`)**: The primary web portal for users to manage products, view analysis reports, and handle subscriptions.
-- **Management Console (`aisee-manage`)**: Administrative dashboard for system monitoring, user management, and configuration.
 - **Agent Interface (`aisee-agent`)**: A specialized interface for interacting with and monitoring the AI analysis agents.
 
 ### 3. Social Orchestration (Post Agent)

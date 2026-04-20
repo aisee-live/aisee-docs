@@ -93,15 +93,7 @@ Check your balance at `/credit-balance/{user_id}/balance`.
 
 ---
 
-## 6. Administrative Features (Superusers Only)
-Admin users have access to system-wide management tools:
-*   **User Management**: Create, update, and deactivate users.
-*   **Task Monitoring**: View system-wide task health and manually fix stuck tasks via `/task/health-check`.
-*   **Configuration**: Set model pricing and system secrets.
-
----
-
-## 7. Troubleshooting & FAQ
+## 6. Troubleshooting & FAQ
 
 *   **Task is "Stuck"**: If a task remains `pending` despite all children being `completed`, the system usually auto-fixes it within minutes. You can also refresh the detail page to trigger a check.
 *   **Insufficient Credits**: If your analysis won't start, check your balance. You may need to purchase a top-up or upgrade your plan.
