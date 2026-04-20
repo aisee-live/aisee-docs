@@ -1,6 +1,6 @@
-# Postiz Backend API Reference
+# Post Agent Service API Reference
 
-Postiz is an open-source social media scheduling platform. This document covers all backend REST API endpoints.
+Post Agent is an open-source social media scheduling platform. This document covers all backend REST API endpoints.
 
 **Base URL:** `https://api-post.aisee.live/api` (configurable)  
 **Auth:** JWT Bearer token in `Authorization` header

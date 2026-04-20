@@ -22,17 +22,17 @@ AISee is built on a modular, microservices-oriented architecture to ensure scala
 ### 1. Core Services (`aisee-core`)
 The "brain" of the platform, built with FastAPI and PostgreSQL.
 - **Auth Service**: Secure JWT-based identity management and OAuth (Google/GitHub) integration.
-- **Orchestrator Service**: Manages complex hierarchical task trees, product metadata, and the credit-based billing system.
-- **Agent Service**: Executes asynchronous website analysis using specialized AI agents.
-- **MCP Server**: Provides Model Context Protocol (MCP) tools for direct integration with AI clients like Claude Desktop.
+- **Analysis Service**: Manages complex hierarchical task trees, product metadata, and the credit-based billing system.
+- Agent Service: Executes asynchronous website analysis using specialized AI agents.
+- MCP Server: Provides Model Context Protocol (MCP) tools for direct integration with AI clients like Claude Desktop.
 
 ### 2. User Interfaces
 - **Main App (`aisee-app`)**: The primary web portal for users to manage products, view analysis reports, and handle subscriptions.
 - **Management Console (`aisee-manage`)**: Administrative dashboard for system monitoring, user management, and configuration.
 - **Agent Interface (`aisee-agent`)**: A specialized interface for interacting with and monitoring the AI analysis agents.
 
-### 3. Social Orchestration (`postiz-app`)
-A comprehensive social media scheduling and distribution suite (based on Postiz).
+### 3. Social Orchestration (Post Agent)
+A comprehensive social media scheduling and distribution suite (based on Post Agent).
 - **Multi-Platform Support**: Schedule content across Twitter, LinkedIn, and more.
 - **AI-Assisted Creation**: Transform AEO analysis insights directly into social media posts.
 - **Analytics**: Track engagement and performance of your distributed content.
@@ -47,8 +47,8 @@ A comprehensive social media scheduling and distribution suite (based on Postiz)
 
 ### For Developers
 - **[Auth API](./auth-api.md)**: Integration guide for identity and security.
-- **[Orchestrator API](./orchestrator-api.md)**: Technical specs for task management and analysis orchestration.
-- **[Postiz Backend API](./postiz-api.md)**: Reference for the social media distribution layer.
+- **[Analysis API](./analysis-api.md)**: Technical specs for task management and analysis orchestration.
+- **[Post Agent Service API](./post-agent-api.md)**: Reference for the social media distribution layer.
 - **[Deployment Guide](./deployment.md)**: Instructions for setting up the full AISee stack.
 
 ---

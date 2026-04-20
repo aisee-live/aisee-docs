@@ -47,6 +47,6 @@ nav:
   - User Manual: user-manual.md
   - API Reference:
       - Auth Service: auth-api.md
-      - Orchestrator Service: orchestrator-api.md
-      - Postiz Backend: postiz-api.md
+      - Analysis Service: analysis-api.md
+      - Post Agent Service: post-agent-api.md
   - Deployment: deployment.md

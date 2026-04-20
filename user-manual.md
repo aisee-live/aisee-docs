@@ -47,8 +47,8 @@ Results are hierarchical. A root task represents the overall analysis, while chi
 
 ---
 
-## 4. Social Media Management (Postiz)
-AISee integrates with Postiz to provide a comprehensive social media scheduling and orchestration suite. This allows you to transform AEO analysis insights into actionable social content.
+## 4. Social Media Management (Post Agent)
+AISee integrates with Post Agent to provide a comprehensive social media scheduling and orchestration suite. This allows you to transform AEO analysis insights into actionable social content.
 
 ### 4.1 Connecting Social Channels
 Before you can post, you must connect your social media profiles.

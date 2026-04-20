@@ -1,6 +1,6 @@
-# Orchestrator Service API Reference
+# Analysis Service API Reference
 
-The Orchestrator is the central engine for task execution, product management, and billing.
+The Analysis Service is the central engine for task execution, product management, and billing.
 
 **Base URL:** `https://api.aisee.live/` (configurable)  
 **Auth:** JWT Bearer token in `Authorization` header
@@ -127,7 +127,7 @@ curl -X POST "https://api.aisee.live/subscription/checkout" \
 ```json
 {
   "status": "healthy",
-  "service": "AISee Orchestrator",
+  "service": "AISee Analysis",
   "version": "1.0.0"
 }
 ```
