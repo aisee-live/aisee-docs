@@ -5,6 +5,7 @@ The Auth Service handles user identity, authentication, and security.
 ## Authentication Overview
 
 The platform uses a dual-token system:
+- **Base URL:** `https://api-auth.aisee.live` (configurable)  
 - **Access Token**: Short-lived JWT Bearer token used in the `Authorization` header.
 - **Refresh Token**: Long-lived token stored in an `HttpOnly` cookie for security.
 

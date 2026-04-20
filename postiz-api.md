@@ -2,8 +2,8 @@
 
 Postiz is an open-source social media scheduling platform. This document covers all backend REST API endpoints.
 
-**Base URL:** `https://<your-domain>/api` (configurable)  
-**Framework:** NestJS 10 · **ORM:** Prisma 6 · **Auth:** JWT via HttpOnly cookies
+**Base URL:** `https://api-post.aisee.live/api` (configurable)  
+**Auth:** JWT Bearer token in `Authorization` header
 
 ---
 

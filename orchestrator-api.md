@@ -2,6 +2,9 @@
 
 The Orchestrator is the central engine for task execution, product management, and billing.
 
+**Base URL:** `https://api.aisee.live/` (configurable)  
+**Auth:** JWT Bearer token in `Authorization` header
+
 ## 📦 Product Management
 
 ### Create Product
