@@ -1,7 +1,8 @@
 site_name: AISee Documentation
 site_description: AI-powered website and application analysis platform
 site_author: AISee Team
-repo_url: https://github.com/aisee-live/aisee-core
+site_url: https://aisee-live.github.io/aisee-docs/
+repo_url: https://github.com/aisee-live/aisee-docs
 
 theme:
   name: material
