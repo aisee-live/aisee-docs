@@ -1,0 +1,51 @@
+site_name: AISee Documentation
+site_description: AI-powered website and application analysis platform
+site_author: AISee Team
+repo_url: https://github.com/aisee-live/aisee-core
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: README.md
+  - User Manual: user-manual.md
+  - API Reference:
+      - Auth Service: auth-api.md
+      - Orchestrator Service: orchestrator-api.md
+      - Postiz Backend: postiz-api.md
+  - Deployment: deployment.md
