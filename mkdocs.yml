@@ -42,7 +42,7 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - User Manual: user-manual.md
   - API Reference:
       - Auth Service: auth-api.md

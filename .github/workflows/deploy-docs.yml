@@ -28,18 +28,24 @@ jobs:
 
       - name: Prepare docs for MkDocs
         run: |
-          # Copy README as index page
+          # Create docs directory structure
+          mkdir -p docs/assets
+
+          # Copy all markdown files into docs/
+          cp *.md docs/
+
+          # Ensure README.md is available as index.md for the home page
           cp README.md docs/index.md
 
           # Copy logo into docs assets
-          mkdir -p docs/assets
           cp aisee-logo.gif docs/assets/
 
-          # Fix links in index.md: docs/X → X (since we're now inside docs/)
+          # Fix links in index.md if they used to point to a 'docs' subdirectory
+          # (Keeping this as per original script's intent, though currently redundant)
           sed -i 's|\./docs/|./|g' docs/index.md
           sed -i 's|(docs/|(|g' docs/index.md
 
-          # Fix logo reference in index.md
+          # Fix logo reference in index.md to point to the new assets location
           sed -i 's|\./aisee-logo\.gif|./assets/aisee-logo.gif|g' docs/index.md
 
       - run: mkdocs build
